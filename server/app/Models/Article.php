@@ -43,7 +43,4 @@ class Article extends Model
         return $this->morphMany(Like::class, 'likeable');
     }
     
-   
-    
-    
 }
