@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     
-    public function up(): void
+    public function up()
     {
         Schema::create('article_tag', function (Blueprint $table) {
             $table->id();
@@ -17,9 +17,8 @@ return new class extends Migration
             $table->unique(['article_id', 'tag_id']);
         });
     }
-
     
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('article_tag');
     }
