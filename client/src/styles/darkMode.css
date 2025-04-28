@@ -1,0 +1,133 @@
+
+body {
+  background-color: #111827 !important; 
+  color: #f9fafb !important; 
+}
+
+
+.dark-element {
+  background-color: #1f2937 !important;
+  color: #f9fafb !important; 
+  border-color: #374151 !important; 
+}
+
+.dark-input {
+  background-color: #1f2937 !important;
+  border-color: #4b5563 !important; 
+  color: #e5e7eb !important;
+}
+
+.dark-input:focus {
+  border-color: #60a5fa !important; 
+}
+
+.dark-table-element {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important; 
+  color: #e5e7eb !important;
+}
+
+/* Background colors */
+.dark .bg-white {
+  background-color: #1f2937 !important;
+}
+
+.dark .bg-gray-50, 
+.dark .bg-gray-100, 
+.dark .bg-gray-200 {
+  background-color: #111827 !important; 
+}
+
+.dark .bg-gray-300 {
+  background-color: #374151 !important; /* bg-gray-700 */
+}
+
+/* Text colors */
+.dark .text-black,
+.dark .text-gray-800,
+.dark .text-gray-900 {
+  color: #f9fafb !important; 
+}
+
+.dark .text-gray-700,
+.dark .text-gray-600 {
+  color: #e5e7eb !important;
+}
+
+.dark .text-gray-500 {
+  color: #9ca3af !important; /* text-gray-400 */
+}
+
+/* Border colors */
+.dark .border,
+.dark .border-gray-200,
+.dark .border-gray-300 {
+  border-color: #374151 !important; 
+}
+
+/* Form elements */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #1f2937 !important;
+  border-color: #4b5563 !important; 
+  color: #e5e7eb !important;
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  border-color: #60a5fa !important; 
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
+}
+
+/* Tables */
+.dark table {
+  color: #e5e7eb !important;
+  border-color: #374151 !important; 
+}
+
+.dark th {
+  background-color: #111827 !important; 
+}
+
+.dark tr {
+  border-color: #374151 !important; 
+}
+
+.dark tr:nth-child(even) {
+  background-color: #1f2937 !important;
+}
+
+/* Cards */
+.dark .shadow-md,
+.dark .shadow-lg,
+.dark .shadow-xl {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Buttons (keeping accent buttons with their original colors) */
+.dark .bg-gray-100:not(.text-blue-600):not(.text-blue-500):not(.text-green-500):not(.text-red-500) {
+  background-color: #374151 !important; /* bg-gray-700 */
+  color: #e5e7eb !important;
+}
+
+.dark .bg-gray-200:not(.text-blue-600):not(.text-blue-500):not(.text-green-500):not(.text-red-500) {
+  background-color: #4b5563 !important; /* bg-gray-600 */
+  color: #e5e7eb !important;
+}
+
+/* Comment alternate colors */
+.dark .bg-green-50 {
+  background-color: #064e3b !important; /* bg-green-900 */
+}
+
+/* Links (preserve blue coloring for recognition) */
+a:not(.text-white):not(.text-gray-400):not(.text-gray-300) {
+  color: #60a5fa !important; /* text-blue-400 */
+}
+
+a:hover:not(.text-white):not(.text-gray-400):not(.text-gray-300) {
+  color: #93c5fd !important; /* text-blue-300 */
+}
